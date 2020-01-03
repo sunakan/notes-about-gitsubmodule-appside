@@ -14,8 +14,7 @@ $ ruby main.rb
 == How to update submodule
 
 ----
-$ cd lib
-$ git pull origin master
+$ git submodule update --remote
 ----
 
 === Reference
