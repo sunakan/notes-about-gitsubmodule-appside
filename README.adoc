@@ -1,0 +1,24 @@
+= Notes about git submodule
+
+- This is app side
+
+== How to use
+
+----
+$ git clone https://github.com/sunakan/notes-about-gitsubmodule-appside.git
+$ cd notes-about-gitsubmodule-appside
+$ git submodule update -i
+$ ruby main.rb
+----
+
+== How to update submodule
+
+----
+$ cd lib
+$ git pull origin master
+----
+
+=== Reference
+
+* link:https://qiita.com/sotarok/items/0d525e568a6088f6f6bb[Git submodule の基礎]
+* link:https://qiita.com/kinpira/items/3309eb2e5a9a422199e9[Git submoduleの押さえておきたい理解ポイントのまとめ]
